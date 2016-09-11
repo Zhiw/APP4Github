@@ -1,4 +1,6 @@
-package com.zhiw.app4github;
+package com.zhiw.app4github.ui.module.main;
+
+import com.zhiw.app4github.R;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
