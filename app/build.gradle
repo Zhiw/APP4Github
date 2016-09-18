@@ -22,7 +22,7 @@ android {
         }
     }
 }
-ext.SupportLibVersion='24.2.0'
+ext.SupportLibVersion='24.2.1'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -60,4 +60,6 @@ dependencies {
     compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
     compile 'com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0'
     compile 'com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0'
+
+    compile 'com.roughike:bottom-bar:2.0.2'
 }
