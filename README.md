@@ -1,2 +1,2 @@
-# App4Github
-App For Github
+# App4GitHub
+App For GitHub

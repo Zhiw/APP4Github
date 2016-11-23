@@ -6,19 +6,19 @@ import android.app.Application;
 import android.content.Context;
 
 /**
- * ClassName: GithubApplication
+ * ClassName: GitHubApplication
  * Desc:
  * Created by zhiw on 16/9/10.
  */
 
-public class GithubApplication extends Application {
+public class GitHubApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
         LogUtil.init();
     }
 
-    public static GithubApplication get(Context context){
-        return (GithubApplication)context.getApplicationContext();
+    public static GitHubApplication get(Context context){
+        return (GitHubApplication)context.getApplicationContext();
     }
 }
